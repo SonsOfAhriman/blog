@@ -6,7 +6,7 @@ export default function Posts() {
   const posts = getSortedPostsData();
 
   return (
-    <div className="bg-white py-32">
+    <div className="bg-white py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row">
           <div className="w-full lg:max-w-lg lg:flex-auto">
@@ -19,7 +19,7 @@ export default function Posts() {
             <img
               src="/images/ryan_profile.PNG"
               alt="Ryan Huddleston"
-              className="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]"
+              className="mt-12 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[29.5rem]"
             />
           </div>
           <div className="w-full lg:max-w-xl lg:flex-auto">
